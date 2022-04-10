@@ -5,3 +5,4 @@ Quantum pathfinder is a optimization tool designed to find the optimal set of ro
 
 <center><img src="Images/Cost-fun.png" width="800"></center>
 <center><img src="Images/Example.png" width="800"></center>
+<center><img src="Images/Scheme.png" width="800"></center>
