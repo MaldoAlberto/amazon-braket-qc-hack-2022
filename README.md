@@ -12,6 +12,6 @@ In this case we implement a problem with 5 customers and 3 vehicles. The problem
 
 # Conclusion
 - The QAOA algorithm gives the same solution as CPLEX for the problem proposed which means that the QAOA is getting the optimal solution for this problem.
-- The Pennylane solution needs and improvement to classify the correct solution. However, we create a function that combines a model from Cplex QuadraticProgram that can be used to translets quadratic unconstraint problems directly to pennylane.
+- The Pennylane solution needs an improvement to classify the correct solution. However, we create a function that combines a model from Cplex QuadraticProgram that can be used to translate quadratic unconstraint problems directly to pennylane.
 - Future work involves using real devices with error mitigation
 
