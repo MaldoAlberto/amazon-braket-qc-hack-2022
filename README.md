@@ -8,10 +8,15 @@ Quantum pathfinder is a optimization tool designed to find the optimal set of ro
 <center><img src="Images/Scheme.png" width="800"></center>
 
 # Problem 
+
 In this case we implement a problem with 5 customers and 3 vehicles. The problem is solved using QAOA and COBYLA with two different backends. The backends are the Qiskit Aer simulator and the amazon local simulator. 
 
+<center><img src="Images/Solution.png" width="800"></center>
+<center><img src="Images/cost-fun.png" width="800"></center>
+
 # Conclusion
+
 - The QAOA algorithm gives the same solution as CPLEX for the problem proposed which means that the QAOA is getting the optimal solution for this problem.
-- The Pennylane solution needs an improvement to classify the correct solution. However, we create a function that combines a model from Cplex QuadraticProgram that can be used to translate quadratic unconstraint problems directly to pennylane.
+- The Pennylane solution needs an improvement to classify the correct solution. However, we create a function that combines a model from CPLEX QuadraticProgram and pennylane. This tool will be helpful for a easier user interface to encode QUBO problems.
 - Future work involves using real devices with error mitigation
 
