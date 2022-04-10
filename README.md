@@ -26,8 +26,9 @@ In this case, we implement a problem with 5 customers and 3 vehicles. The proble
 
 To run this project you must clone this repository on your local machine, and apply in the terminal the command
 
-
-|pip install -r requirements.txt|
+```
+pip install -r requirements.txt
+```
 
 The dependencies are:
 
@@ -42,7 +43,10 @@ The dependencies are:
 
 
 In case you use the notebook it should be
-|!pip install -r requirements.txt|
+
+```
+!pip install -r requirements.txt
+```
 
 In case you use google colab you should run the above command and restart the kernel and run it again to initialize all the dependencies.
 
