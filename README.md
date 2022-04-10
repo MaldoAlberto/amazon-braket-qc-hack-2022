@@ -18,6 +18,23 @@ In this case, we implement a problem with 5 customers and 3 vehicles. The proble
 
 <center><img src="Images/histo1.png" width="800"></center>
 
+
+# instructions on running the project
+
+To run this project you must clone this repository on your local machine, and apply in the terminal the command
+
+pip install -r requirements.txt
+
+In case you use the notebook it should be
+!pip install -r requirements.txt
+
+In case you use google colab you should run the above command and restart the kernel and run it again to initialize all the dependencies.
+
+Subsequently, you should consider that you have the file 
+qaoa_pennylane.py which has the necessary classes to make the qaoa in pennylane.
+
+Finally, run the Quantum Pathfinder - the vehicle routing optimal solver.ipynb file step by step following the documented process.
+
 # Conclusion
 
 - The QAOA algorithm gives the same solution as CPLEX for the problem proposed which means that the QAOA is getting the optimal solution for this problem.
