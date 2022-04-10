@@ -16,7 +16,7 @@ In this case we implement a problem with 5 customers and 3 vehicles. The problem
 
 ## AWS local simulator using pennylane
 
-<center><img src="Images/histo.png" width="800"></center>
+<center><img src="Images/histo1.png" width="800"></center>
 
 # Conclusion
 
