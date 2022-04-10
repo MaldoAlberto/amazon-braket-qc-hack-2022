@@ -9,10 +9,14 @@ Quantum pathfinder is a optimization tool designed to find the optimal set of ro
 
 # Problem 
 
-In this case we implement a problem with 5 customers and 3 vehicles. The problem is solved using QAOA and COBYLA with two different backends. The backends are the Qiskit Aer simulator and the amazon local simulator. 
+In this case we implement a problem with 5 customers and 3 vehicles. The problem is solved using QAOA and COBYLA with two different backends. The backends are the Qiskit Aer simulator and the amazon local simulator. The Figure below shows that QAOA reaches the desired solution. The COBYLA cost function evolution is also shown below. 
 
 <center><img src="Images/Solution.png" width="800"></center>
 <center><img src="Images/cost-fun.png" width="800"></center>
+
+## AWS local simulator using pennylane
+
+<center><img src="Images/histo.png" width="800"></center>
 
 # Conclusion
 
