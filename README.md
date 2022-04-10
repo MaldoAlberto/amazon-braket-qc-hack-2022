@@ -7,6 +7,7 @@ Quantum pathfinder is an optimization tool designed to find the optimal set of r
 <center><img src="Images/Example.png" width="800"></center>
 <center><img src="Images/Scheme.png" width="800"></center>
 
+
 # Problem 
 
 In this case, we implement a problem with 5 customers and 3 vehicles. The problem is solved using QAOA and COBYLA with two different backends. The backends are the Qiskit Aer simulator and the amazon local simulator. The Figure below shows that QAOA reaches the desired solution. The COBYLA cost function evolution is also shown below. 
@@ -21,12 +22,27 @@ In this case, we implement a problem with 5 customers and 3 vehicles. The proble
 
 # instructions on running the project
 
+
+
 To run this project you must clone this repository on your local machine, and apply in the terminal the command
 
-pip install -r requirements.txt
+
+|pip install -r requirements.txt|
+
+The dependencies are:
+
+| Procesing data              | quantum frame works                   | 
+|-----------------------------| --------------------------------------| 
+| numpy: 1.20.1               | pennylane: 0.22.2                     |
+| pandas: 1.2.3               | pennylane-qiskit: 0.22.0              | 
+| docplex version:  2.22.213  | amazon-braket-pennylane-plugin: 1.6.3 |
+| matplotlib: 3.4.1           | qiskit:  0.19.2                       |
+|                             | qiskit_optimization version:  0.3.2   |
+
+
 
 In case you use the notebook it should be
-!pip install -r requirements.txt
+|!pip install -r requirements.txt|
 
 In case you use google colab you should run the above command and restart the kernel and run it again to initialize all the dependencies.
 
